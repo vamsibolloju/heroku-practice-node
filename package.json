@@ -5,6 +5,9 @@
   "repository": "https://github.com/vamsibolloju/heroku-practice-node.git",
   "author": "vamsibolloju <vamsikrishnaa.b88@gmail.com@factset.com>",
   "license": "MIT",
+  "engines": {
+    "node": "14.16.0"
+  },
   "scripts": {
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
     "build": "tsc",
