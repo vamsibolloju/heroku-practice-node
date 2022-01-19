@@ -28,7 +28,6 @@ pipeline {
                     to: "test@jenkins"
                 }
             }
-
         }
         stage('Post Build') {
             steps {
